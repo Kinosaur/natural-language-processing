@@ -1,0 +1,144 @@
+Welcome to TechNews Daily! #TechNews #Breaking
+
+LATEST ARTICLES:
+=================
+
+Article 1: Cloud Computing Revolution
+Check out our comprehensive guide at https://www.technews.com/articles/cloud-computing?id=2024&category=tech
+For more information, contact our cloud team at cloud.services@technews.com
+
+Article 2: Machine Learning Advances
+Read the full story: http://blog.technews.org/ml-advances/2024/breakthrough
+Download datasets from ftp://data.technews.net/datasets/ml/2024/
+Questions? Email our ML team at ml_research@university.edu
+Join the discussion: #MachineLearning #AI_Research #DeepLearning
+
+Article 3: Cybersecurity Best Practices  
+Visit https://security.technews.com/best-practices?sort=recent&filter=enterprise
+Contact security experts: security-team@company.org
+Important tags: #CyberSecurity #InfoSec #DataProtection
+
+UPCOMING EVENTS:
+================
+
+1. Web Development Conference 2024
+   Website: https://webdev.conference.com/2024/schedule?day=1&track=frontend
+   Register: register@webdev.conference.net
+   Follow: #WebDev #JavaScript #Python #React
+
+2. AI Summit 
+   Details: http://ai-summit.tech.edu/registration/form
+   FTP Resources: ftp://files.ai-summit.edu/presentations/keynotes/
+   Contact: info@ai-summit.edu
+   Trending: #AISummit #Innovation #FutureTech
+
+COMMUNITY HIGHLIGHTS:
+=====================
+
+Top contributors this month:
+- john.doe@community.com (#OpenSource contributor)
+- sarah_smith@research.org (#DataScience expert) 
+- tech.lead-123@startup.net (#StartupLife advocate)
+
+Popular discussions:
+- https://forum.technews.com/threads/python-best-practices?page=5&sort=votes
+- http://discuss.technews.org/topics/blockchain?filter=active
+- ftp://archive.technews.net/discussions/2024/november/
+
+Hashtags trending today:
+#Python #JavaScript #Java #CPP #Rust #Go #Swift
+#AI #ML #NLP #ComputerVision #Robotics 
+#Web3 #BlockChain #Crypto #DeFi
+#DevOps #CloudNative #Kubernetes #Docker
+#Mobile #iOS #Android #Flutter
+#DataScience #BigData #Analytics #Visualization
+#Security #Privacy #Encryption
+#OpenSource #GitHub #GitLab
+
+RESOURCES:
+==========
+
+Documentation:
+- API Reference: https://docs.technews.com/api/v2/reference?format=json
+- Getting Started: http://help.technews.org/guides/quickstart
+- Downloads: ftp://downloads.technews.net/tools/cli/latest/
+
+Support Channels:
+- General: support@technews.com
+- Enterprise: enterprise_support@technews.com  
+- Education: edu-support@technews.edu
+- Developers: dev_team@technews.org
+
+Social Media:
+Follow us for updates: #TechNewsCommunity #TechUpdates #DailyTech
+
+SPECIAL FEATURES:
+=================
+
+Interview with Dr. Jane Smith (jane.smith@university.edu):
+"The future of quantum computing is here. Visit our lab's website at 
+https://quantum.university.edu/research?project=qc2024 to learn more."
+#QuantumComputing #Research #Science
+
+Tutorial: Building REST APIs
+Full tutorial: https://tutorials.technews.com/rest-api/nodejs?level=intermediate&duration=2hrs
+Code repository: ftp://code.technews.net/tutorials/rest-api/
+Questions: tutorial_help@technews.com
+Tags: #Tutorial #API #Backend #Node_js
+
+CONTACT US:
+===========
+
+Main Office: contact@technews.com
+Press Inquiries: press@technews.org  
+Partnerships: partners@technews.net
+Careers: jobs@technews.com
+
+Website: https://www.technews.com
+Blog: http://blog.technews.org
+Resources: ftp://ftp.technews.net/
+
+Stay connected: #StayTuned #TechCommunity #Innovation2024
+
+---
+Note: All URLs support HTTPS. FTP access requires authentication.
+For technical support regarding https://support.technews.com/tickets,
+please email tech_support@technews.com or call our hotline.
+
+Archives available at ftp://archive.technews.net/historical/2020-2024/
+Student discount info: students@technews.edu
+
+#ThankYou #Community #Technology #Future
+
+===================================================================
+TESTING SECTION - INVALID FORMATS (SHOULD NOT BE EXTRACTED)
+===================================================================
+
+Invalid URLs (missing scheme, wrong scheme, incomplete):
+- www.example.com (missing scheme)
+- example.com (missing scheme)
+- mailto:user@example.com (wrong scheme - not https/http/ftp)
+- file:///path/to/file (wrong scheme)
+- https:// (incomplete - no hostname)
+- htp://example.com (typo in scheme)
+
+Invalid Email Addresses (wrong TLD, missing parts, invalid format):
+- user@example.xyz (wrong TLD - only .com/.org/.edu/.net allowed)
+- admin@site.co.uk (wrong TLD)
+- invalid@domain.info (wrong TLD)
+- no-at-sign.com (missing @ symbol)
+- @nodomain.com (missing username)
+- user@ (missing domain)
+- user@@example.com (double @)
+- user @example.com (space in username)
+
+Invalid Hashtags (with special chars, punctuation, spaces):
+- # NoHashtag (space after #)
+- #tag! (exclamation should not be included)
+- #test@mention (@ should terminate hashtag)
+- #tag. (period should terminate)
+- #price$99 ($ should terminate)
+- #discount%off (% should terminate)
+- #two&more (& should terminate)
+- #question? (? should terminate)
+- #end, (comma should terminate)
