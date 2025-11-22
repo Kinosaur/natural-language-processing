@@ -7,6 +7,5 @@ env/
 .idea/
 .vscode/
 *.log
-result/
 .virtual_documents/
 anaconda_projects/

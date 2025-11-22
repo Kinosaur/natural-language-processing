@@ -5,7 +5,7 @@ def extract_urls(text):
     """Extract URLs with schemes: https://, http://, ftp://"""
     # Matches: scheme://hostname/path?query
     # Supports subdomains and query parameters
-    url_pattern = r'(?:https?|ftp)://(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z]{2,}(?:/[a-zA-Z0-9._~:/?#\[\]@!$&\'()*+;=%-]*)?'
+    url_pattern = r'(?:https?|ftp)://(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z]{2,}(?:/[\w.~:/?#\[\]@!$&\'()*+;=%-]*)?'
     return re.findall(url_pattern, text)
 
 def extract_emails(text):
@@ -18,7 +18,7 @@ def extract_emails(text):
 def extract_hashtags(text):
     """Extract hashtags: # followed by letters, digits, or underscores"""
     # Matches: #word (stops at spaces, special chars, or punctuation)
-    hashtag_pattern = r'#[a-zA-Z0-9_]+'
+    hashtag_pattern = r'#[\w]+'
     return re.findall(hashtag_pattern, text)
 
 def save_to_file(filename, items):
@@ -60,3 +60,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# use AI to check regex patterns for edge cases and correctness becuase of issues found in testing
+# use this site https://regex101.com/ to validate regex patterns and learn more about them
+# watched this video about regex https://youtu.be/vsa9GGzMFXQ?si=l-GAy3zFm8kaD1iW
