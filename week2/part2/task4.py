@@ -2,22 +2,28 @@ import re
 import os
 
 def extract_urls(text):
-    """Extract URLs with schemes: https://, http://, ftp://"""
-    # Matches: scheme://hostname/path?query
-    # Supports subdomains and query parameters
+    """
+    Extract URLs with schemes: https://, http://, ftp://
+    Matches: scheme://hostname/path?query
+    Supports subdomains and query parameters
+    """
     url_pattern = r'(?:https?|ftp)://(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z]{2,}(?:/[\w.~:/?#\[\]@!$&\'()*+;=%-]*)?'
     return re.findall(url_pattern, text)
 
 def extract_emails(text):
-    """Extract emails with TLDs: .com, .org, .edu, .net only"""
-    # Matches: username@domain.tld
-    # Username can contain letters, numbers, and special chars (., -, _)
+    """
+    Extract emails with TLDs: .com, .org, .edu, .net only
+    Matches: username@domain.tld
+    Username can contain letters, numbers, and special chars (., -, _)
+    """
     email_pattern = r'[a-zA-Z0-9](?:[a-zA-Z0-9._-]*[a-zA-Z0-9])?@[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?)*\.(?:com|org|edu|net)\b'
     return re.findall(email_pattern, text)
 
 def extract_hashtags(text):
-    """Extract hashtags: # followed by letters, digits, or underscores"""
-    # Matches: #word (stops at spaces, special chars, or punctuation)
+    """
+    Extract hashtags: # followed by letters, digits, or underscores
+    Matches: #word (stops at spaces, special chars, or punctuation)
+    """
     hashtag_pattern = r'#[\w]+'
     return re.findall(hashtag_pattern, text)
 
@@ -34,7 +40,6 @@ def process_text(input_text):
     emails = extract_emails(input_text)
     hashtags = extract_hashtags(input_text)
     
-    # Create result directory if it doesn't exist
     os.makedirs('result', exist_ok=True)
     
     save_to_file('result/urls.txt', urls)
