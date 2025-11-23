@@ -28,7 +28,6 @@ def extract_hashtags(text):
     return re.findall(hashtag_pattern, text)
 
 def save_to_file(filename, items):
-    """Save items to file, one per line"""
     with open(filename, 'w', encoding='utf-8') as f:
         for item in items:
             f.write(str(item) + '\n')
