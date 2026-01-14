@@ -9,3 +9,5 @@ env/
 *.log
 .virtual_documents/
 anaconda_projects/
+week7/models/GoogleNews-vectors-negative300.gensim
+week7/models/GoogleNews-vectors-negative300.gensim.vectors.npy
