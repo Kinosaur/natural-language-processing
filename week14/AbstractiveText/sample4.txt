@@ -1,0 +1,1 @@
+The current microservice-based system has been experiencing increasing latency during peak usage periods. Preliminary analysis suggests that the issue may stem from inefficient load balancing, suboptimal caching strategies, or blocking behavior.

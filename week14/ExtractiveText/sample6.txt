@@ -1,0 +1,1 @@
+experiments are difficult to reproduce since random seeds, hyperparameters, and environment versions are not tracked properly. overall, the organization recognizes the need for refactoring and modernization but progress is slow due to tight deadlines and limited resources.

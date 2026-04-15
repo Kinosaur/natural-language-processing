@@ -1,0 +1,1 @@
+The software platform has been growing fast over the last few years but the architecture was not really planned to scale properly. Small updates sometimes break unrelated features and debugging becomes very time-consuming. The organization recognizes the need for refactoring and modernization.

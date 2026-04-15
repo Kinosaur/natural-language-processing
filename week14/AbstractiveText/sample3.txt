@@ -1,0 +1,1 @@
+latency spikes are becoming more frequent especially during peak traffic hours. Logging pipeline is fragmented across multiple monitoring tools and not all services are emitting structured logs consistently. Some components are still using legacy synchronous calls instead of async which could be creating unnecessary blocking.

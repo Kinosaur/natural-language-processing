@@ -1,0 +1,1 @@
+While organizational leadership acknowledges the necessity of architectural refactoring and platform modernization, progress remains constrained by competing deadlines and limited engineering capacity. As technical debt continues to accumulate, the absence of a structured remediation roadmap increases the risk of long-term system instability and escalating maintenance costs.

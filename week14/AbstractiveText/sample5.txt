@@ -1,0 +1,1 @@
+The software platform has experienced rapid growth over recent years, but its architecture was not originally designed for scalable expansion. Many system components were introduced in an ad-hoc manner, resulting in unclear service dependencies and fragile integration points.
